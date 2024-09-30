@@ -1,0 +1,58 @@
+body {
+    color: rgb(63, 236, 0);
+    background: rgb(234, 255, 0);
+    margin: 0px;
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 32, 255);
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(0, 255, 13);
+}
+
+.chamada{
+background: rgb(0, 32, 236);
+padding-bottom: 80px;
+padding-top: 30px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+margin-right: 5%;
+
+}
+h1 {
+font-size: 50px;
+
+}
+
+p{
+    font-size: 35px;
+}
+img{
+height: 200px;
+}
+
+.categoria-lutas {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.categoria{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+.categoria-lutas img{
+ opacity:0.8;
+}
+
+.categoria-lutas img:hover{
+opacity: 1.0;
+border:  2px solid rgb(0, 255, 13);
+}
